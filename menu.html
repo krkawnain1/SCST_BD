@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav ul li a:hover {
+            background-color:#575757;
+        }
+        nav ul li ul.dropdown {
+            display: none;
+            position: absolute;
+            background-color:#575757;
+            min-width: 16px;
+            z-index: 1;
+        }
+        nav ul li ul li {
+            float: none;
+        }
+        nav ul li ul li a {
+            padding: 10px 16px;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li>
+                <a href="#department">Department</a>
+                <ul class="drodown">
+
+                    <li><a href="computer">computer</a></li>
+<a href="C:\Users\Administrator\Desktop/computer op.html">click here
+                    <li><a href="#electrical">Electrical</a></li>
+                    <li><a href="#civil">Civil</a></li><a href="C:\Users\Administrator\Desktop/programming.html">click here</a href>
+
+
+                </ul>
+            </li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#board-of-directors">Board of Directors</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
